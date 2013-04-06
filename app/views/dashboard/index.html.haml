@@ -1,0 +1,27 @@
+.container-fluid
+  .row-fluid
+    .span9
+      .row-fluid{:style=>"font-size: 22pt;"}
+        =image_tag("utfsm.png",:style=>"height:100px")
+        HyperDashboardPrimos
+      .row-fluid
+        .span10
+          .row-fluid
+            TAREAS
+          .row-fluid
+            .span6
+              %img{:src=>'http://redes2.dcsc.utfsm.cl/mrtg/CORE/shaper/campus_santiago_sj_labs_inf-bytes-day.png',:style=>'height:230px'}
+            .span6
+              KVMLIST
+          .row-fluid{:style=>"font-size: 22pt;letter-spacing:3px;"}
+            Primo(s) de turno:
+            =@pdts
+        .span2
+          PCS APAGADOS
+    .span3
+      .row-fluid
+        %img(src="http://www.artpoker.net/WallpapersImages/800x600_Pacman.jpg" id="camera1" style="height:250px;")
+      .row-fluid
+        %img(src="http://www.artpoker.net/WallpapersImages/800x600_Pacman.jpg" id="camera2" style="height:250px;")
+      .row-fluid
+        %img(src="http://www.artpoker.net/WallpapersImages/800x600_Pacman.jpg" id="camera2" style="height:250px;")
