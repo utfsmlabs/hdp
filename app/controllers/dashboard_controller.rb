@@ -15,5 +15,6 @@ class DashboardController < ApplicationController
       sub_url = "/"+issue['id'].to_s
       @extras = JSON.parse(open(issue_url+sub_url+json_end+incluir_changesets).read)['issue']['journals']
       issue['journals'] = @extras 
+    end
   end
 end
