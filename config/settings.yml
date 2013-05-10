@@ -1,3 +1,5 @@
 api_key:
   code: "176f5d1935a3527be17dad602b384ccca2be5675" 
+  icinga: "usminfo"
+  camera: "primo:primo@"
 

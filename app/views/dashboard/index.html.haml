@@ -2,107 +2,29 @@
   .row-fluid
     .span9
       .row-fluid{:style=>"font-size: 24pt;"}
-        =image_tag("DI.png")
-        HyperDashboardPrimos
+        .span10
+          =image_tag("DI.png")
+          HDP-HyperDashboardPrimos
+        .span2(style="padding:25px;")
+          =Time.now.to_s(:time)
       .row-fluid
         .span9
           .row-fluid{:style=>"height:650px;"}
-            .title
-              Tareas en Code:
-            .span3  
-              %ul.nav.nav-pills.nav-stacked
-                %li.active  
-                  %a{:href=>"#"}
-                    Tarea1     
-                %li  
-                  %a{:href=>"#"}
-                    Tarea2     
-                %li  
-                  %a{:href=>"#"}
-                    Tarea3     
-                %li  
-                  %a{:href=>"#"}
-                    Tarea4     
-                %li  
-                  %a{:href=>"#"}
-                    Tarea5 
-            .span8
-              DESCRIPCION
+            =render("dashboard/widgets/tareas")
           .row-fluid
             .span6
-              .title
-                Red DI
-              %img#red{:src=>'http://redes2.dcsc.utfsm.cl/mrtg/CORE/shaper/campus_santiago_sj_labs_inf-bytes-day.png',:style=>'height:185px'}
+              =render("dashboard/widgets/red_di")
             .span6
               .title
-                KVMLIST
+                =render("dashboard/widgets/kvm_list")
           .row-fluid
-            .span6
-              .title
-                Primo(s) de turno:
-              =@pdts
-            .span6
-              HORA
+            =render("dashboard/widgets/primos_de_turno")
         .span3
-          .row-fluid
-            .title
-              PCS APAGADOS
-            %table.table.table-striped
-              %tr
-                %td
-                %td
-                  lpa-pcxx
-              %tr
-                %td
-                %td
-                  lpa-pcxx
-              %tr
-                %td
-                %td
-                  lpa-pcxx
-              %tr
-                %td
-                %td
-                  lpa-pcxx
-              %tr
-                %td
-                %td
-                  lpa-pcxx
-              %tr
-                %td
-                %td
-                  lpa-pcxx
-              %tr
-                %td
-                %td
-                  lpa-pcxx  
-              %tr
-                %td
-                %td
-                  lpa-pcxx
-              %tr
-                %td
-                %td
-                  lpa-pcxx
-              %tr
-                %td
-                %td
-                  lpa-pcxx
+          .row-fluid{:style=>"height:350px;"}
+            =render("dashboard/widgets/estado_pcs")
           .row-fluid
             =render("dashboard/widgets/twitter")
           .row-fluid
-            .title
-              FRASES
+            =render("dashboard/widgets/frases")
     .span3
-      .row-fluid
-        .title
-          Camara1
-        %img(src="http://www.artpoker.net/WallpapersImages/800x600_Pacman.jpg" id="camera1" style="width:100%;")
-      .row-fluid
-        .title
-          Camara2
-        %img(src="http://www.artpoker.net/WallpapersImages/800x600_Pacman.jpg" id="camera2" style="width:100%;")
-      .row-fluid
-        .title
-          Camara3
-        %img(src="http://www.artpoker.net/WallpapersImages/800x600_Pacman.jpg" id="camera2" style="width:100%;")
+      =render("dashboard/widgets/camaras")
