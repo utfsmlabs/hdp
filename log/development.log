@@ -29227,3 +29227,144 @@ ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
 
 
   Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/twitter" for 127.0.0.1 at 2013-05-14 18:36:56 -0400
+Processing by DashboardController#twitter as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `consumer_key' for #<String:0x00000004718028>):
+  app/controllers/dashboard_controller.rb:52:in `block in twitter'
+  app/controllers/dashboard_controller.rb:51:in `twitter'
+
+
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.0ms)
+
+
+Started GET "/twitter" for 127.0.0.1 at 2013-05-14 18:37:48 -0400
+Processing by DashboardController#twitter as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `consumer_key' for #<String:0x000000042a2e80>):
+  app/controllers/dashboard_controller.rb:52:in `block in twitter'
+  app/controllers/dashboard_controller.rb:51:in `twitter'
+
+
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/twitter" for 127.0.0.1 at 2013-05-14 18:40:14 -0400
+Processing by DashboardController#twitter as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `consumer_key' for #<String:0x00000004c14338>):
+  app/controllers/dashboard_controller.rb:52:in `block in twitter'
+  app/controllers/dashboard_controller.rb:51:in `twitter'
+
+
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+
+
+Started GET "/twitter" for 127.0.0.1 at 2013-05-14 18:40:16 -0400
+Processing by DashboardController#twitter as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `consumer_key' for #<String:0x007f1eb82c2760>):
+  app/controllers/dashboard_controller.rb:52:in `block in twitter'
+  app/controllers/dashboard_controller.rb:51:in `twitter'
+
+
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/twitter" for 127.0.0.1 at 2013-05-14 18:40:31 -0400
+Processing by DashboardController#twitter as HTML
+Completed 500 Internal Server Error in 41ms
+
+NoMethodError (undefined method `consumer_key' for #<String:0x007f1eb83d4a68>):
+  app/controllers/dashboard_controller.rb:52:in `block in twitter'
+  app/controllers/dashboard_controller.rb:51:in `twitter'
+
+
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/twitter" for 127.0.0.1 at 2013-05-14 18:41:13 -0400
+Processing by DashboardController#twitter as HTML
+Completed 500 Internal Server Error in 857ms
+
+Twitter::Error::BadRequest (Bad Authentication data):
+  app/controllers/dashboard_controller.rb:57:in `twitter'
+
+
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/twitter" for 127.0.0.1 at 2013-05-14 18:41:21 -0400
+Processing by DashboardController#twitter as HTML
+Completed 500 Internal Server Error in 790ms
+
+Twitter::Error::BadRequest (Bad Authentication data):
+  app/controllers/dashboard_controller.rb:57:in `twitter'
+
+
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.7ms)
+
+
+Started GET "/twitter" for 127.0.0.1 at 2013-05-14 18:41:29 -0400
+Processing by DashboardController#twitter as HTML
+Completed 500 Internal Server Error in 1067ms
+
+Twitter::Error::BadRequest (Bad Authentication data):
+  app/controllers/dashboard_controller.rb:57:in `twitter'
+
+
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/twitter" for 127.0.0.1 at 2013-05-14 18:42:33 -0400
+Processing by DashboardController#twitter as HTML
+  Rendered dashboard/widgets/twitter.html.erb (0.7ms)
+Completed 200 OK in 760ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter" for 127.0.0.1 at 2013-05-14 18:43:23 -0400
+Processing by DashboardController#twitter as HTML
+  Rendered dashboard/widgets/twitter.html.haml (54.7ms)
+Completed 500 Internal Server Error in 1035ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::PP):
+    1: =PP.pp @tweets 
+  app/views/dashboard/widgets/twitter.html.haml:1:in `_app_views_dashboard_widgets_twitter_html_haml___3457382880126446915_70248488561820'
+  app/controllers/dashboard_controller.rb:58:in `twitter'
+
+
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/primo/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/twitter" for 127.0.0.1 at 2013-05-14 18:43:46 -0400
+Processing by DashboardController#twitter as HTML
+  Rendered dashboard/widgets/twitter.html.haml (6.6ms)
+Completed 200 OK in 907ms (Views: 8.1ms | ActiveRecord: 0.0ms)

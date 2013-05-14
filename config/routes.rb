@@ -5,6 +5,7 @@ Hdp::Application.routes.draw do
   get "icinga_servers" => "dashboard#icinga_servers"
   get "frases" => "dashboard#frases"
   get "code" => "dashboard#code"
+  get "twitter" => "dashboard#twitter"
 
 
   # The priority is based upon order of creation:
