@@ -1,5 +1,11 @@
 Hdp::Application.routes.draw do
   get "dashboard/index"
+  get "primodeturno" => "dashboard#primodeturno"
+  get "icinga" => "dashboard#icinga"
+  get "icinga_servers" => "dashboard#icinga_servers"
+  get "frases" => "dashboard#frases"
+  get "code" => "dashboard#code"
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
