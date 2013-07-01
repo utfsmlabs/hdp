@@ -1,36 +1,46 @@
 .container-fluid
   .row-fluid
-    .span9
+    .content-left
       .row-fluid{:style=>"font-size: 24pt;"}
-        .span10
+        .header-title
           =image_tag("DI.png")
-          HDP-HyperDashboardPrimos
-        .span2(style="padding:25px;")
-          =Time.now.to_s(:time)
+        .header-time
+          =Time.now.strftime("%I:%M%p")
+          =Time.now.strftime("%d-%m")
       .row-fluid
-        .span9
-          .row-fluid{:style=>"height:650px;"}
-            .title
-              tareas :D
-          .row-fluid
-            .span6
-              .title
-                red_di :D
-            .span6
-              .title
-                icinga_servers :D
-          .row-fluid
-            .title
-              primosdeturno :D
-        .span3
-          .row-fluid{:style=>"height:350px;"}
-            .title
+        .content-main-left
+          .content  
+            =image_tag("tareas.png")
+            .inner-content  
+              %p Tareas ejemplo:
+              %p - Terminar HDP
+              %p - Lavar Delantales
+              %p - Envíar reporte semanal a Liuva
+          .content
+            =image_tag("reddi.png")
+            .inner-content
+              red_di :D
+          .content-main-left-bottom
+            .content
+              =image_tag("icinga_server.png")
+              .inner-content
+                icinga_servers :D          
+            .content
+              =image_tag("primos_de_turno.png")
+              .inner-content
+                primosdeturno :D
+        .content-main-right
+          .content  
+            =image_tag("laboratorios.png")
+            .inner-content  
               icinga :D
-          .row-fluid
-            .title
+          .content
+            =image_tag("twitter.png")
+            .inner-content
               twitter :D
-          .row-fluid
-            .title
+          .content
+            =image_tag("frase.png")
+            .inner-content
               frases :D
-    .span3
+    .content-right
       =render("dashboard/widgets/camaras")

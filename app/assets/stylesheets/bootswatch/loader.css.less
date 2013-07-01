@@ -1,96 +1,104 @@
-// loader.less
-// customize the modules loaded here
-@import "twitter/bootstrap/variables";
-@import "twitter/bootstrap/mixins";
-@import "twitter/bootstrap/reset";
-@import "twitter/bootstrap/scaffolding";
-@import "twitter/bootstrap/grid";
-@import "twitter/bootstrap/layouts";
-@import "twitter/bootstrap/type";
-@import "twitter/bootstrap/code";
-@import "twitter/bootstrap/forms";
-@import "twitter/bootstrap/tables";
-@import "twitter/bootstrap/sprites";
-@import "twitter/bootstrap/dropdowns";
-@import "twitter/bootstrap/wells";
-@import "twitter/bootstrap/component-animations";
-@import "twitter/bootstrap/close";
-@import "twitter/bootstrap/buttons";
-@import "twitter/bootstrap/button-groups";
-@import "twitter/bootstrap/alerts";
-@import "twitter/bootstrap/navs";
-@import "twitter/bootstrap/navbar";
-@import "twitter/bootstrap/breadcrumbs";
-@import "twitter/bootstrap/pagination";
-@import "twitter/bootstrap/pager";
-@import "twitter/bootstrap/modals";
-@import "twitter/bootstrap/tooltip";
-@import "twitter/bootstrap/popovers";
-@import "twitter/bootstrap/thumbnails";
-@import "twitter/bootstrap/media";
-@import "twitter/bootstrap/labels-badges";
-@import "twitter/bootstrap/progress-bars";
-@import "twitter/bootstrap/accordion";
-@import "twitter/bootstrap/carousel";
-@import "twitter/bootstrap/hero-unit";
-@import "twitter/bootstrap/utilities";
-
-
-@import "twitter/bootstrap/responsive";
-
 /* line 5, ../../app/assets/stylesheets/dashboard.css.scss */
 .title {
   content: "Example";
   position: relative;
   top: -1px;
   left: -1px;
-  padding: 3px 7px;
+  padding: 5px 7px;
   font-size: 12px;
-  font-weight: bold;
-  opacity: 0.4;
-  background-color: #f5f5f5;
-  border: 1px solid #ddd;
-  color: #9da0a4;
-  -webkit-border-radius: 4px 0 4px 0;
-  -moz-border-radius: 4px 0 4px 0;
-  border-radius: 4px 0 4px 0;
+  background-color: #E9F2F9;
+}
+
+html {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 body {
-    background-color: #E9F2F9
+  background-image:url('bg.png');
+  margin: 0;
 }
 
-.span1 {
-    border-radius: 10px;   
-    background-color: #9CC4E4;
-    padding: 10px 10px;
-    margin:5px 0 0;
+.container-fluid {
+    padding: 0px 5px;
 }
 
-.span2 {
-    border-radius: 10px;   
-    background-color: #9CC4E4;
-    padding: 10px 10px;
-    margin:5px 0 0;
+.content-left {
+  width: 900px;
+  float: left;
+  margin: 0 5px 0 0;
 }
 
-.span3 .row-fluid {
-    border-radius: 10px;   
-    background-color: #9CC4E4;
-    padding: 10px 10px;
-    margin:5px 0 0;
+.header-title {
+  width: 750px;
+  float: left;
+  background-color: rgba(59, 89, 152, 0.9);
+  padding: 10px;
+  margin: 5px 10px 0 0;
+  font-size: 24px;
+  min-height: 90px;
 }
 
-#main .row-fluid {
-    border-radius: 10px;   
-    background-color: #9CC4E4;
-    padding: 10px 10px;
-    margin:5px 0 0;
+.header-time {
+  width: 100px;
+  float: left;
+  background-color: rgba(59, 89, 152, 0.9);
+  padding: 25px 10px;
+  margin: 5px 0 0;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  min-height: 60px;
 }
 
-.span10 {
-    border-radius: 10px;   
-    background-color: #9CC4E4;
-    padding: 10px 10px;
-    margin:5px 0 0;
+.inner-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+}
+
+.content-main-left {
+  width: 600px;
+  float: left;
+}
+
+.content-main-left .content {
+  background-color: rgba(59, 89, 152, 0.9);
+  padding: 5px;
+  margin: 5px 10px 0 0;
+}
+
+.content-main-left-bottom .content {
+  width: 280px;
+  float: left;
+}
+
+.content-main-right {
+  width: 300px;
+  float: left;
+}
+
+.content-main-right .content {
+  background-color: rgba(59, 89, 152, 0.9);
+  padding: 5px;
+  margin: 5px 0 0 0;
+}
+
+.content-right {
+  width: 330px;
+  float: right;
+  margin: 0;
+}
+
+.content-right .content {
+  background-color: rgba(59, 89, 152, 0.9);
+  padding: 5px;
+  margin: 5px 0 0 0;
+  
+}
+
+.content-right .content img {
+  max-height: 220px;
+}
+
+.content-right .content iframe {
+  max-height: 220px;
 }
